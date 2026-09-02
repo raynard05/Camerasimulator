@@ -1,4 +1,9 @@
 {
-  "name": "camerasimulator",
-  "displayName": "camerasimulator"
+  "expo": {
+    "name": "camerasimulator",
+    "slug": "camerasimulator",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "light"
+  }
 }

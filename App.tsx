@@ -23,15 +23,16 @@ function App() {
   );
 }
 
+import { CameraSimulator } from './src/components/CameraSimulator';
+import { BackgroundMusic } from './src/components/BackgroundMusic';
+
 function AppContent() {
   const safeAreaInsets = useSafeAreaInsets();
 
   return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
+    <View style={[styles.container, { paddingTop: safeAreaInsets.top, paddingBottom: safeAreaInsets.bottom }]}>
+      <CameraSimulator />
+      <BackgroundMusic />
     </View>
   );
 }
@@ -39,6 +40,7 @@ function AppContent() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#000'
   },
 });
 
