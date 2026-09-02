@@ -42,11 +42,11 @@ const CustomSlider = ({ title, icon, options, displayOptions, visibleLabels, sel
                     {title}: <Text style={{ color: '#fff' }}>{displayValue}</Text>
                 </Text>
             </View>
-            
+
             <View style={styles.sliderTrackOuter}>
-                <View 
+                <View
                     ref={trackRef}
-                    style={styles.sliderTrackContainer} 
+                    style={styles.sliderTrackContainer}
                     onLayout={updateLayout}
                     onTouchStart={(e) => { updateLayout(); handleTouch(e); }}
                     onTouchMove={handleTouch}
@@ -63,22 +63,22 @@ const CustomSlider = ({ title, icon, options, displayOptions, visibleLabels, sel
                             <View style={styles.thumbArrow} />
                         </View>
                     )}
-                    
+
                     {/* Track Line */}
                     <View style={styles.trackLine} pointerEvents="none" />
-                    
+
                     {/* Ticks and Labels */}
                     <View style={styles.ticksContainer} pointerEvents="none">
                         {options.map((opt: string, i: number) => (
                             <View key={i} style={styles.tickWrapper}>
                                 <View style={[styles.tick, i === selectedIndex ? styles.tickActive : null]} />
-                                
+
                                 {layoutMode === 'staggered' && (
                                     <Text style={[styles.tickLabel, { top: i % 2 === 0 ? 5 : 20, color: i === selectedIndex ? '#fff' : '#666' }]}>
                                         {opt}
                                     </Text>
                                 )}
-                                
+
                                 {layoutMode === 'normal' && visibleLabels && visibleLabels[i] !== '' && (
                                     <Text style={[styles.tickLabel, { top: 5, color: i === selectedIndex ? '#fff' : '#666' }]}>
                                         {visibleLabels[i]}
@@ -113,7 +113,7 @@ export const CameraSimulator = () => {
     const [apertureIdx, setApertureIdx] = useState(2); // default index for '4'
     const [shutterIdx, setShutterIdx] = useState(6); // default index for '1/60 SEC'
     const [isoIdx, setIsoIdx] = useState(2); // default index for '400'
-    
+
     const [isWebViewReady, setIsWebViewReady] = useState(false);
     const [base64Image, setBase64Image] = useState<string | null>(null);
     const [isSidebarVisible, setIsSidebarVisible] = useState(true);
@@ -123,7 +123,7 @@ export const CameraSimulator = () => {
             try {
                 const asset = Asset.fromModule(ASSETS[currentAssetIdx]);
                 await asset.downloadAsync();
-                
+
                 if (asset.localUri) {
                     const base64 = await FileSystem.readAsStringAsync(asset.localUri, {
                         encoding: FileSystem.EncodingType.Base64,
@@ -152,7 +152,7 @@ export const CameraSimulator = () => {
             const shutterShaderValue = 1.0 - (shutterIdx / (SHUTTER_OPTIONS.length - 1));
             // ISO: higher (high index) = more brightness/noise (closer to 1.0)
             const isoShaderValue = isoIdx / (ISO_OPTIONS.length - 1);
-            
+
             webviewRef.current?.injectJavaScript(`window.setEffects(${apertureShaderValue}, ${shutterShaderValue}, ${isoShaderValue}); true;`);
         }
     }, [apertureIdx, shutterIdx, isoIdx, isWebViewReady]);
@@ -165,7 +165,7 @@ export const CameraSimulator = () => {
             } else if (data.type === 'screenshot') {
                 saveImage(data.data);
             }
-        } catch (e) {}
+        } catch (e) { }
     };
 
     const takePhoto = () => {
@@ -176,7 +176,7 @@ export const CameraSimulator = () => {
         const base64Code = base64DataUrl.split('data:image/jpeg;base64,')[1];
         const filename = `360_capture_${new Date().getTime()}.jpg`;
         const path = `${FileSystem.documentDirectory}${filename}`;
-        
+
         try {
             await FileSystem.writeAsStringAsync(path, base64Code, { encoding: FileSystem.EncodingType.Base64 });
             const isAvailable = await Sharing.isAvailableAsync();
@@ -203,16 +203,16 @@ export const CameraSimulator = () => {
                     allowUniversalAccessFromFileURLs={true}
                     javaScriptEnabled={true}
                 />
-                
-                <TouchableOpacity 
-                    style={styles.toggleButton} 
+
+                <TouchableOpacity
+                    style={styles.toggleButton}
                     onPress={() => setIsSidebarVisible(!isSidebarVisible)}
                 >
                     <Settings size={20} color="#fff" />
                 </TouchableOpacity>
 
-                <TouchableOpacity 
-                    style={styles.changeImageButton} 
+                <TouchableOpacity
+                    style={styles.changeImageButton}
                     onPress={() => setCurrentAssetIdx((prev) => (prev + 1) % ASSETS.length)}
                 >
                     <Text style={styles.toggleButtonText}>
@@ -220,8 +220,8 @@ export const CameraSimulator = () => {
                     </Text>
                 </TouchableOpacity>
 
-                <TouchableOpacity 
-                    style={styles.centerShutterButton} 
+                <TouchableOpacity
+                    style={styles.centerShutterButton}
                     onPress={takePhoto}
                 >
                     <CameraIcon size={24} color="#000" />
@@ -231,31 +231,31 @@ export const CameraSimulator = () => {
             {isSidebarVisible && (
                 <View style={[styles.controlsContainer, { flexDirection: 'row' }]}>
                     <ScrollView style={{ flex: 1, paddingRight: 15 }} showsVerticalScrollIndicator={false}>
-                        <CustomSlider 
-                            title="APERTURE" 
-                            icon="📷" 
-                            options={APERTURE_OPTIONS} 
-                            selectedIndex={apertureIdx} 
+                        <CustomSlider
+                            title="APERTURE"
+                            icon="📷"
+                            options={APERTURE_OPTIONS}
+                            selectedIndex={apertureIdx}
                             setSelectedIndex={setApertureIdx}
                             layoutMode="staggered"
                         />
-                        
-                        <CustomSlider 
-                            title="SHUTTER SPEED" 
-                            icon="⏱️" 
+
+                        <CustomSlider
+                            title="SHUTTER SPEED"
+                            icon="⏱️"
                             options={SHUTTER_OPTIONS}
                             displayOptions={SHUTTER_ACTUAL}
                             visibleLabels={SHUTTER_OPTIONS}
-                            selectedIndex={shutterIdx} 
+                            selectedIndex={shutterIdx}
                             setSelectedIndex={setShutterIdx}
                             layoutMode="normal"
                         />
-                        
-                        <CustomSlider 
-                            title="ISO" 
-                            icon="☀️" 
-                            options={ISO_OPTIONS} 
-                            selectedIndex={isoIdx} 
+
+                        <CustomSlider
+                            title="ISO"
+                            icon="☀️"
+                            options={ISO_OPTIONS}
+                            selectedIndex={isoIdx}
                             setSelectedIndex={setIsoIdx}
                             layoutMode="angled"
                         />
@@ -332,7 +332,7 @@ const styles = StyleSheet.create({
         borderColor: '#555',
         zIndex: 10,
     },
-    
+
     // Custom Slider Styles
     sliderWrapper: {
         marginBottom: 10,

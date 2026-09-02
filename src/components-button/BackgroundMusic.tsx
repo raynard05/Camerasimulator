@@ -92,23 +92,19 @@ export const BackgroundMusic = () => {
 const styles = StyleSheet.create({
   container: {
     position: 'absolute',
-    top: 80,
+    top: 30,
     right: 20,
     zIndex: 9999,
   },
   button: {
-    width: 40,
-    height: 40,
+    width: 50,
+    height: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.6)',
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: '#444'
   },
   icon: {
-    width: 24,
-    height: 24,
+    width: 50,
+    height: 50,
     resizeMode: 'contain',
   }
 });

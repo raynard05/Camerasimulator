@@ -1152,3 +1152,529 @@
 {"_e":"metro:bundling:started","_t":1788321955486,"id":"4","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
 {"_e":"metro:bundling:progress","_t":1788321955486,"id":"4","progress":0,"total":1,"current":0}
 {"_e":"metro:bundling:done","_t":1788321955542,"id":"4","total":1,"ms":55.7284}
+{"_e":"root:init","_t":1788322752550,"format":"v0-jsonl","version":"56.1.25"}
+{"_e":"env:mode","_t":1788322752551,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788322752558,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788322753146,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788322753633,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1788322764465,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1788322832046,"id":"1","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788322832046,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788322832052,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788322832670,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1788322832771,"id":"1","progress":0.010000000000000002,"total":3,"current":1}
+{"_e":"metro:bundling:progress","_t":1788322832867,"id":"1","progress":0.04000000000000001,"total":3,"current":2}
+{"_e":"metro:bundling:progress","_t":1788322832975,"id":"1","progress":0.140625,"total":16,"current":6}
+{"_e":"metro:bundling:progress","_t":1788322833084,"id":"1","progress":0.140625,"total":34,"current":12}
+{"_e":"metro:bundling:progress","_t":1788322833185,"id":"1","progress":0.19463667820069203,"total":34,"current":15}
+{"_e":"metro:bundling:progress","_t":1788322833301,"id":"1","progress":0.22145328719723184,"total":34,"current":16}
+{"_e":"metro:bundling:progress","_t":1788322833403,"id":"1","progress":0.25,"total":36,"current":18}
+{"_e":"metro:bundling:progress","_t":1788322833506,"id":"1","progress":0.33518005540166207,"total":38,"current":22}
+{"_e":"metro:bundling:progress","_t":1788322833619,"id":"1","progress":0.3491735537190083,"total":44,"current":26}
+{"_e":"metro:bundling:progress","_t":1788322833722,"id":"1","progress":0.3491735537190083,"total":68,"current":29}
+{"_e":"metro:bundling:progress","_t":1788322833862,"id":"1","progress":0.3491735537190083,"total":68,"current":30}
+{"_e":"metro:bundling:progress","_t":1788322833969,"id":"1","progress":0.3491735537190083,"total":75,"current":35}
+{"_e":"metro:bundling:progress","_t":1788322834070,"id":"1","progress":0.3491735537190083,"total":92,"current":44}
+{"_e":"metro:bundling:progress","_t":1788322834170,"id":"1","progress":0.3491735537190083,"total":213,"current":54}
+{"_e":"metro:bundling:progress","_t":1788322834275,"id":"1","progress":0.3491735537190083,"total":247,"current":67}
+{"_e":"metro:bundling:progress","_t":1788322834382,"id":"1","progress":0.3491735537190083,"total":291,"current":82}
+{"_e":"metro:bundling:progress","_t":1788322834481,"id":"1","progress":0.3491735537190083,"total":308,"current":103}
+{"_e":"metro:bundling:progress","_t":1788322834581,"id":"1","progress":0.3491735537190083,"total":324,"current":116}
+{"_e":"metro:bundling:progress","_t":1788322834683,"id":"1","progress":0.3491735537190083,"total":340,"current":126}
+{"_e":"metro:bundling:progress","_t":1788322834783,"id":"1","progress":0.3491735537190083,"total":351,"current":138}
+{"_e":"metro:bundling:progress","_t":1788322834885,"id":"1","progress":0.3491735537190083,"total":388,"current":166}
+{"_e":"metro:bundling:progress","_t":1788322834987,"id":"1","progress":0.3491735537190083,"total":410,"current":200}
+{"_e":"metro:bundling:progress","_t":1788322835089,"id":"1","progress":0.3491735537190083,"total":444,"current":226}
+{"_e":"metro:bundling:progress","_t":1788322835196,"id":"1","progress":0.3491735537190083,"total":465,"current":248}
+{"_e":"metro:bundling:progress","_t":1788322835297,"id":"1","progress":0.3491735537190083,"total":480,"current":275}
+{"_e":"metro:bundling:progress","_t":1788322835397,"id":"1","progress":0.35901907402528427,"total":489,"current":293}
+{"_e":"metro:bundling:progress","_t":1788322835498,"id":"1","progress":0.3991595447939144,"total":497,"current":314}
+{"_e":"metro:bundling:progress","_t":1788322835598,"id":"1","progress":0.41679144463528134,"total":522,"current":337}
+{"_e":"metro:bundling:progress","_t":1788322835699,"id":"1","progress":0.43628218570008587,"total":542,"current":358}
+{"_e":"metro:bundling:progress","_t":1788322835806,"id":"1","progress":0.43820670501884545,"total":568,"current":376}
+{"_e":"metro:bundling:progress","_t":1788322835907,"id":"1","progress":0.46900330557885356,"total":587,"current":402}
+{"_e":"metro:bundling:progress","_t":1788322836006,"id":"1","progress":0.5013400297283906,"total":596,"current":422}
+{"_e":"metro:bundling:progress","_t":1788322836109,"id":"1","progress":0.5291467656961331,"total":598,"current":435}
+{"_e":"metro:bundling:progress","_t":1788322836217,"id":"1","progress":0.560019297399237,"total":604,"current":452}
+{"_e":"metro:bundling:progress","_t":1788322836317,"id":"1","progress":0.6007504110765491,"total":618,"current":479}
+{"_e":"metro:bundling:progress","_t":1788322836421,"id":"1","progress":0.6333824266334969,"total":627,"current":499}
+{"_e":"metro:bundling:progress","_t":1788322836522,"id":"1","progress":0.6552073904147808,"total":635,"current":514}
+{"_e":"metro:bundling:progress","_t":1788322836623,"id":"1","progress":0.6897005434769464,"total":643,"current":534}
+{"_e":"metro:bundling:progress","_t":1788322836813,"id":"1","progress":0.720402758725804,"total":648,"current":550}
+{"_e":"metro:bundling:progress","_t":1788322836913,"id":"1","progress":0.720402758725804,"total":698,"current":550}
+{"_e":"metro:bundling:progress","_t":1788322837015,"id":"1","progress":0.720402758725804,"total":2445,"current":557}
+{"_e":"metro:bundling:progress","_t":1788322837144,"id":"1","progress":0.720402758725804,"total":2453,"current":566}
+{"_e":"metro:bundling:progress","_t":1788322837268,"id":"1","progress":0.720402758725804,"total":2456,"current":586}
+{"_e":"metro:bundling:progress","_t":1788322837372,"id":"1","progress":0.720402758725804,"total":2462,"current":615}
+{"_e":"metro:bundling:progress","_t":1788322837473,"id":"1","progress":0.720402758725804,"total":2475,"current":645}
+{"_e":"metro:bundling:progress","_t":1788322837576,"id":"1","progress":0.720402758725804,"total":2481,"current":702}
+{"_e":"metro:bundling:progress","_t":1788322837676,"id":"1","progress":0.720402758725804,"total":2481,"current":766}
+{"_e":"metro:bundling:progress","_t":1788322837776,"id":"1","progress":0.720402758725804,"total":2481,"current":835}
+{"_e":"metro:bundling:progress","_t":1788322837876,"id":"1","progress":0.720402758725804,"total":2481,"current":890}
+{"_e":"metro:bundling:progress","_t":1788322837977,"id":"1","progress":0.720402758725804,"total":2481,"current":954}
+{"_e":"metro:bundling:progress","_t":1788322838080,"id":"1","progress":0.720402758725804,"total":2481,"current":1016}
+{"_e":"metro:bundling:progress","_t":1788322838181,"id":"1","progress":0.720402758725804,"total":2481,"current":1083}
+{"_e":"metro:bundling:progress","_t":1788322838283,"id":"1","progress":0.720402758725804,"total":2481,"current":1149}
+{"_e":"metro:bundling:progress","_t":1788322838383,"id":"1","progress":0.720402758725804,"total":2481,"current":1217}
+{"_e":"metro:bundling:progress","_t":1788322838483,"id":"1","progress":0.720402758725804,"total":2481,"current":1279}
+{"_e":"metro:bundling:progress","_t":1788322838587,"id":"1","progress":0.720402758725804,"total":2481,"current":1345}
+{"_e":"metro:bundling:progress","_t":1788322838688,"id":"1","progress":0.720402758725804,"total":2481,"current":1418}
+{"_e":"metro:bundling:progress","_t":1788322838787,"id":"1","progress":0.720402758725804,"total":2481,"current":1476}
+{"_e":"metro:bundling:progress","_t":1788322838887,"id":"1","progress":0.720402758725804,"total":2481,"current":1548}
+{"_e":"metro:bundling:progress","_t":1788322838987,"id":"1","progress":0.720402758725804,"total":2481,"current":1618}
+{"_e":"metro:bundling:progress","_t":1788322839087,"id":"1","progress":0.720402758725804,"total":2481,"current":1702}
+{"_e":"metro:bundling:progress","_t":1788322839187,"id":"1","progress":0.720402758725804,"total":2481,"current":1783}
+{"_e":"metro:bundling:progress","_t":1788322839287,"id":"1","progress":0.720402758725804,"total":2481,"current":1863}
+{"_e":"metro:bundling:progress","_t":1788322839387,"id":"1","progress":0.720402758725804,"total":2481,"current":1934}
+{"_e":"metro:bundling:progress","_t":1788322839488,"id":"1","progress":0.720402758725804,"total":2481,"current":2009}
+{"_e":"metro:bundling:progress","_t":1788322839592,"id":"1","progress":0.720402758725804,"total":2481,"current":2085}
+{"_e":"metro:bundling:progress","_t":1788322839698,"id":"1","progress":0.7405292719630904,"total":2481,"current":2135}
+{"_e":"metro:bundling:progress","_t":1788322839797,"id":"1","progress":0.7834497440523797,"total":2481,"current":2196}
+{"_e":"metro:bundling:progress","_t":1788322839900,"id":"1","progress":0.8180732210507231,"total":2481,"current":2244}
+{"_e":"metro:bundling:progress","_t":1788322840001,"id":"1","progress":0.8684046313449365,"total":2481,"current":2312}
+{"_e":"metro:bundling:progress","_t":1788322840100,"id":"1","progress":0.9179200050167651,"total":2481,"current":2377}
+{"_e":"metro:bundling:progress","_t":1788322840200,"id":"1","progress":0.9672219062375059,"total":2481,"current":2440}
+{"_e":"metro:bundling:progress","_t":1788322840301,"id":"1","progress":0.9776186143650293,"total":2488,"current":2460}
+{"_e":"metro:bundling:progress","_t":1788322840401,"id":"1","progress":0.979324613850087,"total":2502,"current":2476}
+{"_e":"metro:bundling:progress","_t":1788322840501,"id":"1","progress":0.984164937405375,"total":2516,"current":2496}
+{"_e":"metro:bundling:progress","_t":1788322840607,"id":"1","progress":0.9881774437969661,"total":2530,"current":2515}
+{"_e":"metro:bundling:progress","_t":1788322840710,"id":"1","progress":0.9881774437969661,"total":2612,"current":2529}
+{"_e":"metro:bundling:progress","_t":1788322840810,"id":"1","progress":0.9881774437969661,"total":2612,"current":2552}
+{"_e":"metro:bundling:progress","_t":1788322840918,"id":"1","progress":0.9881774437969661,"total":2623,"current":2582}
+{"_e":"metro:bundling:progress","_t":1788322841018,"id":"1","progress":0.9931727868829742,"total":2632,"current":2623}
+{"_e":"metro:bundling:progress","_t":1788322841121,"id":"1","progress":0.9977233928840136,"total":2634,"current":2631}
+{"_e":"metro:bundling:progress","_t":1788322841226,"id":"1","progress":0.9984819736533352,"total":2634,"current":2632}
+{"_e":"metro:bundling:progress","_t":1788322841612,"id":"1","progress":0.999,"total":2634,"current":2633}
+{"_e":"metro:bundling:progress","_t":1788322841717,"id":"1","progress":0.999,"total":2637,"current":2637}
+{"_e":"metro:bundling:done","_t":1788322842116,"id":"1","total":2637,"ms":10070.2818}
+{"_e":"metro:bundling:started","_t":1788323473312,"id":"2","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788323473312,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788323473432,"id":"2","total":1,"ms":119.5909}
+{"_e":"metro:bundling:started","_t":1788325502503,"id":"6","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788325502503,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325502509,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325502647,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325502724,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325502824,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325502924,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325503024,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325503134,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325503238,"id":"6","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788325503391,"id":"6","total":1,"ms":887.542}
+{"_e":"root:init","_t":1788325698720,"format":"v0-jsonl","version":"56.1.25"}
+{"_e":"env:mode","_t":1788325698721,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788325698724,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788325698998,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788325699387,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1788325709526,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1788325711420,"id":"1","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788325711420,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325711431,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788325711531,"id":"1","progress":0.07359099139882298,"total":188,"current":51}
+{"_e":"metro:bundling:progress","_t":1788325711632,"id":"1","progress":0.24848255282194365,"total":329,"current":164}
+{"_e":"metro:bundling:progress","_t":1788325711733,"id":"1","progress":0.3461817198485667,"total":430,"current":253}
+{"_e":"metro:bundling:progress","_t":1788325711834,"id":"1","progress":0.3461817198485667,"total":2226,"current":253}
+{"_e":"metro:bundling:progress","_t":1788325711942,"id":"1","progress":0.3461817198485667,"total":2305,"current":428}
+{"_e":"metro:bundling:progress","_t":1788325712042,"id":"1","progress":0.7521140969598298,"total":2305,"current":1999}
+{"_e":"metro:bundling:progress","_t":1788325712143,"id":"1","progress":0.9441429586687466,"total":2365,"current":2298}
+{"_e":"metro:bundling:progress","_t":1788325712243,"id":"1","progress":0.945216049382716,"total":2376,"current":2310}
+{"_e":"metro:bundling:progress","_t":1788325712343,"id":"1","progress":0.945216049382716,"total":2539,"current":2458}
+{"_e":"metro:bundling:done","_t":1788325712515,"id":"1","total":2539,"ms":1095.0345}
+{"_e":"metro:bundling:failed","_t":1788325773285,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\components\\HomeScreen.tsx: Unexpected token (45:12)\n\n  43 |   startImage: {\n  44 |     width: 190,\n> 45 |     height: ,\n     |             ^\n  46 |     resizeMode: 'contain',\n  47 |   }\n  48 | });","importStack":null,"filename":"src\\components\\HomeScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788325773485,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\components\\HomeScreen.tsx: Unexpected token (45:12)\n\n  43 |   startImage: {\n  44 |     width: 190,\n> 45 |     height: ,\n     |             ^\n  46 |     resizeMode: 'contain',\n  47 |   }\n  48 | });","importStack":null,"filename":"src\\components\\HomeScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1788328085785,"id":"4","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788328085785,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328085790,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328085932,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328086014,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328086114,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328086214,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328086314,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328086414,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328086536,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788328087117,"id":"4","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788328087202,"id":"4","total":1,"ms":1416.8037}
+{"_e":"metro:bundling:failed","_t":1788328304674,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\components\\HomeScreen.tsx: Unexpected token (42:17)\n\n  40 |     position: 'absolute',\n  41 |     top: '55%', // Geser ke atas sedikit\n> 42 |     marginLeft: -, // Geser ke kiri sedikit\n     |                  ^\n  43 |   },\n  44 |   startImage: {\n  45 |     width: 190,","importStack":null,"filename":"src\\components\\HomeScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788328315617,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\components\\HomeScreen.tsx: Unexpected token (42:17)\n\n  40 |     position: 'absolute',\n  41 |     top: '55%', // Geser ke atas sedikit\n> 42 |     marginLeft: -, // Geser ke kiri sedikit\n     |                  ^\n  43 |   },\n  44 |   startImage: {\n  45 |     width: 190,","importStack":null,"filename":"src\\components\\HomeScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788328322812,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\components\\HomeScreen.tsx: Unexpected token (42:17)\n\n  40 |     position: 'absolute',\n  41 |     top: '55%', // Geser ke atas sedikit\n> 42 |     marginLeft: -, // Geser ke kiri sedikit\n     |                  ^\n  43 |   },\n  44 |   startImage: {\n  45 |     width: 190,","importStack":null,"filename":"src\\components\\HomeScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788328327658,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\components\\HomeScreen.tsx: Unexpected token (42:17)\n\n  40 |     position: 'absolute',\n  41 |     top: '55%', // Geser ke atas sedikit\n> 42 |     marginLeft: -, // Geser ke kiri sedikit\n     |                  ^\n  43 |   },\n  44 |   startImage: {\n  45 |     width: 190,","importStack":null,"filename":"src\\components\\HomeScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"root:init","_t":1788328566749,"format":"v0-jsonl","version":"56.1.25"}
+{"_e":"env:mode","_t":1788328566752,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788328566755,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788328567041,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788328567485,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1788328581468,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1788328608763,"id":"2","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788328608764,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788328608848,"id":"2","total":1,"ms":84.7572}
+{"_e":"metro:bundling:started","_t":1788329111963,"id":"8","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788329111963,"id":"8","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788329112039,"id":"8","total":1,"ms":75.9612}
+{"_e":"root:init","_t":1788330434434,"format":"v0-jsonl","version":"56.1.25"}
+{"_e":"env:mode","_t":1788330434435,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788330434437,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788330434609,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788330434881,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1788330442071,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"root:init","_t":1788330691229,"format":"v0-jsonl","version":"56.1.25"}
+{"_e":"env:mode","_t":1788330691229,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788330691232,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788330691413,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788330691658,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1788330700413,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1788330704465,"id":"1","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788330704465,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330704479,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330705169,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1788330705269,"id":"1","progress":0.010000000000000002,"total":3,"current":1}
+{"_e":"metro:bundling:progress","_t":1788330705324,"id":"1","progress":0.04000000000000001,"total":3,"current":2}
+{"_e":"metro:bundling:progress","_t":1788330705432,"id":"1","progress":0.04000000000000001,"total":10,"current":2}
+{"_e":"metro:bundling:progress","_t":1788330705477,"id":"1","progress":0.09,"total":10,"current":3}
+{"_e":"metro:bundling:progress","_t":1788330705578,"id":"1","progress":0.09,"total":27,"current":8}
+{"_e":"metro:bundling:started","_t":1788330706109,"id":"2","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788330706109,"id":"1","progress":0.09,"total":27,"current":8}
+{"_e":"metro:bundling:progress","_t":1788330706110,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330706300,"id":"1","progress":0.1111111111111111,"total":27,"current":9}
+{"_e":"metro:bundling:progress","_t":1788330706300,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330706400,"id":"1","progress":0.1111111111111111,"total":36,"current":12}
+{"_e":"metro:bundling:progress","_t":1788330706400,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330706500,"id":"1","progress":0.1752298539751217,"total":43,"current":18}
+{"_e":"metro:bundling:progress","_t":1788330706500,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330706631,"id":"1","progress":0.21556122448979592,"total":56,"current":26}
+{"_e":"metro:bundling:progress","_t":1788330706631,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330706734,"id":"1","progress":0.21556122448979592,"total":160,"current":34}
+{"_e":"metro:bundling:progress","_t":1788330706734,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330706844,"id":"1","progress":0.21556122448979592,"total":185,"current":43}
+{"_e":"metro:bundling:progress","_t":1788330706844,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330706950,"id":"1","progress":0.21556122448979592,"total":188,"current":53}
+{"_e":"metro:bundling:progress","_t":1788330706950,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707051,"id":"1","progress":0.21556122448979592,"total":208,"current":66}
+{"_e":"metro:bundling:progress","_t":1788330707051,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707230,"id":"1","progress":0.21556122448979592,"total":217,"current":71}
+{"_e":"metro:bundling:progress","_t":1788330707230,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707348,"id":"1","progress":0.21556122448979592,"total":2016,"current":75}
+{"_e":"metro:bundling:progress","_t":1788330707348,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707448,"id":"1","progress":0.21556122448979592,"total":2035,"current":89}
+{"_e":"metro:bundling:progress","_t":1788330707448,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707555,"id":"1","progress":0.21556122448979592,"total":2063,"current":115}
+{"_e":"metro:bundling:progress","_t":1788330707555,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707671,"id":"1","progress":0.21556122448979592,"total":2077,"current":129}
+{"_e":"metro:bundling:progress","_t":1788330707671,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707771,"id":"1","progress":0.21556122448979592,"total":2093,"current":157}
+{"_e":"metro:bundling:progress","_t":1788330707771,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707873,"id":"1","progress":0.21556122448979592,"total":2116,"current":199}
+{"_e":"metro:bundling:progress","_t":1788330707873,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330707975,"id":"1","progress":0.21556122448979592,"total":2135,"current":233}
+{"_e":"metro:bundling:progress","_t":1788330707975,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708077,"id":"1","progress":0.21556122448979592,"total":2135,"current":290}
+{"_e":"metro:bundling:progress","_t":1788330708077,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708177,"id":"1","progress":0.21556122448979592,"total":2135,"current":340}
+{"_e":"metro:bundling:progress","_t":1788330708177,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708280,"id":"1","progress":0.21556122448979592,"total":2135,"current":394}
+{"_e":"metro:bundling:progress","_t":1788330708280,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708380,"id":"1","progress":0.21556122448979592,"total":2135,"current":453}
+{"_e":"metro:bundling:progress","_t":1788330708380,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708481,"id":"1","progress":0.21556122448979592,"total":2135,"current":510}
+{"_e":"metro:bundling:progress","_t":1788330708481,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708583,"id":"1","progress":0.21556122448979592,"total":2135,"current":566}
+{"_e":"metro:bundling:progress","_t":1788330708583,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708684,"id":"1","progress":0.21556122448979592,"total":2135,"current":616}
+{"_e":"metro:bundling:progress","_t":1788330708684,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708786,"id":"1","progress":0.21556122448979592,"total":2135,"current":670}
+{"_e":"metro:bundling:progress","_t":1788330708786,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708886,"id":"1","progress":0.21556122448979592,"total":2135,"current":726}
+{"_e":"metro:bundling:progress","_t":1788330708887,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330708987,"id":"1","progress":0.21556122448979592,"total":2135,"current":768}
+{"_e":"metro:bundling:progress","_t":1788330708987,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709087,"id":"1","progress":0.21556122448979592,"total":2135,"current":828}
+{"_e":"metro:bundling:progress","_t":1788330709087,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709189,"id":"1","progress":0.21556122448979592,"total":2135,"current":878}
+{"_e":"metro:bundling:progress","_t":1788330709189,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709292,"id":"1","progress":0.21556122448979592,"total":2135,"current":927}
+{"_e":"metro:bundling:progress","_t":1788330709292,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709395,"id":"1","progress":0.21556122448979592,"total":2135,"current":985}
+{"_e":"metro:bundling:progress","_t":1788330709395,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709496,"id":"1","progress":0.23591836734693877,"total":2135,"current":1037}
+{"_e":"metro:bundling:progress","_t":1788330709496,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709596,"id":"1","progress":0.2611281803772302,"total":2135,"current":1091}
+{"_e":"metro:bundling:progress","_t":1788330709596,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709696,"id":"1","progress":0.28062699844786076,"total":2135,"current":1131}
+{"_e":"metro:bundling:progress","_t":1788330709696,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709803,"id":"1","progress":0.30185631468389557,"total":2135,"current":1173}
+{"_e":"metro:bundling:progress","_t":1788330709803,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330709914,"id":"1","progress":0.32653061224489793,"total":2135,"current":1220}
+{"_e":"metro:bundling:progress","_t":1788330709914,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710015,"id":"1","progress":0.3527302842663537,"total":2135,"current":1268}
+{"_e":"metro:bundling:progress","_t":1788330710015,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710114,"id":"1","progress":0.38051851323706043,"total":2135,"current":1317}
+{"_e":"metro:bundling:progress","_t":1788330710114,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710215,"id":"1","progress":0.40577198361204203,"total":2135,"current":1360}
+{"_e":"metro:bundling:progress","_t":1788330710215,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710318,"id":"1","progress":0.42937788283816614,"total":2135,"current":1399}
+{"_e":"metro:bundling:progress","_t":1788330710318,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710420,"id":"1","progress":0.4536511471022163,"total":2135,"current":1438}
+{"_e":"metro:bundling:progress","_t":1788330710420,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710520,"id":"1","progress":0.4837902911769384,"total":2135,"current":1485}
+{"_e":"metro:bundling:progress","_t":1788330710520,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710620,"id":"1","progress":0.5115431993813381,"total":2135,"current":1527}
+{"_e":"metro:bundling:progress","_t":1788330710620,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710720,"id":"1","progress":0.5407587383246769,"total":2135,"current":1570}
+{"_e":"metro:bundling:progress","_t":1788330710720,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710822,"id":"1","progress":0.5729107273116181,"total":2135,"current":1616}
+{"_e":"metro:bundling:progress","_t":1788330710822,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330710926,"id":"1","progress":0.6030777331088307,"total":2135,"current":1658}
+{"_e":"metro:bundling:progress","_t":1788330710926,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711029,"id":"1","progress":0.6414997065743793,"total":2135,"current":1710}
+{"_e":"metro:bundling:progress","_t":1788330711029,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711129,"id":"1","progress":0.6795627684021741,"total":2135,"current":1760}
+{"_e":"metro:bundling:progress","_t":1788330711129,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711229,"id":"1","progress":0.7203119635384387,"total":2135,"current":1812}
+{"_e":"metro:bundling:progress","_t":1788330711229,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711334,"id":"1","progress":0.760612738511153,"total":2135,"current":1862}
+{"_e":"metro:bundling:progress","_t":1788330711334,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711434,"id":"1","progress":0.7986582496476151,"total":2135,"current":1908}
+{"_e":"metro:bundling:progress","_t":1788330711434,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711534,"id":"1","progress":0.8376321923555771,"total":2135,"current":1954}
+{"_e":"metro:bundling:progress","_t":1788330711534,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711636,"id":"1","progress":0.8810482150398454,"total":2135,"current":2004}
+{"_e":"metro:bundling:progress","_t":1788330711636,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711736,"id":"1","progress":0.8862219698974998,"total":2167,"current":2040}
+{"_e":"metro:bundling:progress","_t":1788330711736,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711836,"id":"1","progress":0.8862219698974998,"total":2209,"current":2075}
+{"_e":"metro:bundling:progress","_t":1788330711836,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330711936,"id":"1","progress":0.8862219698974998,"total":2248,"current":2108}
+{"_e":"metro:bundling:progress","_t":1788330711936,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712036,"id":"1","progress":0.8862219698974998,"total":2268,"current":2131}
+{"_e":"metro:bundling:progress","_t":1788330712036,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712136,"id":"1","progress":0.9048796957372314,"total":2277,"current":2166}
+{"_e":"metro:bundling:progress","_t":1788330712136,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712236,"id":"1","progress":0.9186820336569025,"total":2288,"current":2193}
+{"_e":"metro:bundling:progress","_t":1788330712236,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712338,"id":"1","progress":0.936768462061888,"total":2303,"current":2229}
+{"_e":"metro:bundling:progress","_t":1788330712338,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712437,"id":"1","progress":0.9489012351101519,"total":2318,"current":2258}
+{"_e":"metro:bundling:progress","_t":1788330712437,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712540,"id":"1","progress":0.9544364311816658,"total":2343,"current":2289}
+{"_e":"metro:bundling:progress","_t":1788330712542,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712642,"id":"1","progress":0.9544364311816658,"total":2369,"current":2308}
+{"_e":"metro:bundling:progress","_t":1788330712642,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712744,"id":"1","progress":0.9544364311816658,"total":2419,"current":2319}
+{"_e":"metro:bundling:progress","_t":1788330712744,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712845,"id":"1","progress":0.9544364311816658,"total":2470,"current":2328}
+{"_e":"metro:bundling:progress","_t":1788330712845,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330712945,"id":"1","progress":0.9544364311816658,"total":2485,"current":2342}
+{"_e":"metro:bundling:progress","_t":1788330712945,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713046,"id":"1","progress":0.9544364311816658,"total":2525,"current":2370}
+{"_e":"metro:bundling:progress","_t":1788330713046,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713146,"id":"1","progress":0.9544364311816658,"total":2533,"current":2392}
+{"_e":"metro:bundling:progress","_t":1788330713146,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713246,"id":"1","progress":0.9544364311816658,"total":2542,"current":2421}
+{"_e":"metro:bundling:progress","_t":1788330713246,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713348,"id":"1","progress":0.9544364311816658,"total":2555,"current":2463}
+{"_e":"metro:bundling:progress","_t":1788330713348,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713448,"id":"1","progress":0.9544364311816658,"total":2567,"current":2494}
+{"_e":"metro:bundling:progress","_t":1788330713448,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713548,"id":"1","progress":0.9544364311816658,"total":2590,"current":2516}
+{"_e":"metro:bundling:progress","_t":1788330713548,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713648,"id":"1","progress":0.9574031872815013,"total":2601,"current":2545}
+{"_e":"metro:bundling:progress","_t":1788330713649,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713751,"id":"1","progress":0.9710601815742309,"total":2607,"current":2569}
+{"_e":"metro:bundling:progress","_t":1788330713751,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713852,"id":"1","progress":0.9779683871604062,"total":2618,"current":2589}
+{"_e":"metro:bundling:progress","_t":1788330713852,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330713953,"id":"1","progress":0.9885954173242972,"total":2623,"current":2608}
+{"_e":"metro:bundling:progress","_t":1788330713953,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330714062,"id":"1","progress":0.9977164612588743,"total":2626,"current":2623}
+{"_e":"metro:bundling:progress","_t":1788330714062,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330714308,"id":"1","progress":0.9984773508108326,"total":2626,"current":2624}
+{"_e":"metro:bundling:progress","_t":1788330714308,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330714409,"id":"1","progress":0.999,"total":2629,"current":2628}
+{"_e":"metro:bundling:progress","_t":1788330714409,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330714909,"id":"1","progress":0.999,"total":2629,"current":2629}
+{"_e":"metro:bundling:progress","_t":1788330714909,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330715009,"id":"1","progress":0.999,"total":2640,"current":2640}
+{"_e":"metro:bundling:progress","_t":1788330715009,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330715320,"id":"1","progress":0.999,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330715320,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788330715525,"id":"1","total":1,"ms":11059.9709}
+{"_e":"metro:bundling:progress","_t":1788330715525,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330715526,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330715700,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330715800,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330715900,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330716000,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788330716102,"id":"2","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788330716282,"id":"2","total":1,"ms":10172.3083}
+{"_e":"metro:bundling:failed","_t":1788330889349,"id":null,"message":"SyntaxError: D:\\camerasimulator\\App.tsx: Identifier 'HomeScreen' has already been declared. (31:9)\n\n  29 | import { HomeScreen } from './src/components/HomeScreen';\n  30 | import { HomeButton } from './src/components/HomeButton';\n> 31 | import { HomeScreen } from './src/components/HomeScreen';\n     |          ^\n  32 |\n  33 | function AppContent() {\n  34 |   const safeAreaInsets = useSafeAreaInsets();","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788330889644,"id":null,"message":"SyntaxError: D:\\camerasimulator\\App.tsx: Identifier 'HomeScreen' has already been declared. (31:9)\n\n  29 | import { HomeScreen } from './src/components/HomeScreen';\n  30 | import { HomeButton } from './src/components/HomeButton';\n> 31 | import { HomeScreen } from './src/components/HomeScreen';\n     |          ^\n  32 |\n  33 | function AppContent() {\n  34 |   const safeAreaInsets = useSafeAreaInsets();","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:started","_t":1788331410389,"id":"7","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788331410390,"id":"7","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788331410494,"id":"7","total":1,"ms":104.8291}
+{"_e":"metro:bundling:started","_t":1788331449282,"id":"8","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788331449282,"id":"8","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:done","_t":1788331449365,"id":"8","total":1,"ms":82.9078}
+{"_e":"metro:bundling:failed","_t":1788331681656,"id":null,"message":"Unable to resolve \"./src/components/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/components/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components/BackgroundMusic';\n  29 | import { HomeScreen } from './src/components/HomeScreen';\n  30 | import { HomeButton } from './src/components/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/components/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/components/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:failed","_t":1788331688978,"id":null,"message":"Unable to resolve \"./src/screen/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/screen/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components-button/BackgroundMusic';\n  29 | import { HomeScreen } from './src/screen/HomeScreen';\n  30 | import { HomeButton } from './src/components-button/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screen/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/screen/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:failed","_t":1788332904166,"id":null,"message":"Unable to resolve \"./src/screen/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/screen/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components-button/BackgroundMusic';\n  29 | import { HomeScreen } from './src/screen/HomeScreen';\n  30 | import { HomeButton } from './src/components-button/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screen/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/screen/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:failed","_t":1788332904629,"id":null,"message":"Unable to resolve \"./src/screen/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/screen/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components-button/BackgroundMusic';\n  29 | import { HomeScreen } from './src/screen/HomeScreen';\n  30 | import { HomeButton } from './src/components-button/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screen/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/screen/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:failed","_t":1788332904954,"id":null,"message":"Unable to resolve \"./src/screen/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/screen/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components-button/BackgroundMusic';\n  29 | import { HomeScreen } from './src/screen/HomeScreen';\n  30 | import { HomeButton } from './src/components-button/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screen/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/screen/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:started","_t":1788332965329,"id":"b","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788332965329,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332965332,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332965439,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332965577,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332965677,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332965777,"id":"b","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1788332965876,"id":"b","message":"Unable to resolve \"./src/screen/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/screen/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components-button/BackgroundMusic';\n  29 | import { HomeScreen } from './src/screen/HomeScreen';\n  30 | import { HomeButton } from './src/components-button/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screen/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/screen/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:started","_t":1788332977413,"id":"c","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788332977413,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332977417,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332977536,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332977544,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788332977644,"id":"c","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1788332977724,"id":"c","message":"Unable to resolve \"./src/screen/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/screen/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components-button/BackgroundMusic';\n  29 | import { HomeScreen } from './src/screen/HomeScreen';\n  30 | import { HomeButton } from './src/components-button/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screen/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/screen/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"metro:bundling:started","_t":1788333087246,"id":"d","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788333087246,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788333087253,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788333087386,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788333087462,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788333087562,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788333087678,"id":"d","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:failed","_t":1788333087775,"id":"d","message":"Unable to resolve \"./src/screen/CameraSimulator\" from \"App.tsx\"\n  25 |\n  26 | import React, { useState } from 'react';\n> 27 | import { CameraSimulator } from './src/screen/CameraSimulator';\n     |                                  ^\n  28 | import { BackgroundMusic } from './src/components-button/BackgroundMusic';\n  29 | import { HomeScreen } from './src/screen/HomeScreen';\n  30 | import { HomeButton } from './src/components-button/HomeButton';","importStack":"\u001b[1mImport stack:\u001b[22m\n\n\u001b[90m \u001b[39mApp.tsx\n\u001b[90m |\u001b[39m \u001b[36mimport\u001b[39m \u001b[32m\"./src/screen/CameraSimulator\"\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90mnode_modules\\expo\\AppEntry.js\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"../../App\"\u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m \u001b[39m\u001b[90m\u001b[39m\n\u001b[90m\u001b[90m |\u001b[39m\u001b[90m \u001b[36mimport\u001b[39m\u001b[90m \u001b[32m\"./node_modules/\u001b[1mexpo\u001b[22m/AppEntry\"\u001b[39m\u001b[90m\u001b[39m\n","filename":null,"targetModuleName":"./src/screen/CameraSimulator","originModulePath":"App.tsx"}
+{"_e":"root:init","_t":1788333115465,"format":"v0-jsonl","version":"56.1.25"}
+{"_e":"env:mode","_t":1788333115468,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788333115470,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788333115677,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788333115960,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1788333122797,"atlas":false,"workers":8,"host":"::","port":8081}
+{"_e":"metro:bundling:started","_t":1788333133256,"id":"1","platform":"android","environment":null,"entry":"node_modules\\expo\\AppEntry.js"}
+{"_e":"metro:bundling:progress","_t":1788333133257,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788333133263,"id":"1","progress":0,"total":1,"current":0}
+{"_e":"metro:bundling:progress","_t":1788333133680,"id":"1","progress":0.010000000000000002,"total":1,"current":1}
+{"_e":"metro:bundling:progress","_t":1788333133780,"id":"1","progress":0.09,"total":7,"current":3}
+{"_e":"metro:bundling:progress","_t":1788333133880,"id":"1","progress":0.1695501730103806,"total":17,"current":7}
+{"_e":"metro:bundling:progress","_t":1788333133990,"id":"1","progress":0.21006944444444442,"total":24,"current":11}
+{"_e":"metro:bundling:progress","_t":1788333134073,"id":"1","progress":0.25,"total":24,"current":12}
+{"_e":"metro:bundling:progress","_t":1788333134179,"id":"1","progress":0.33284023668639046,"total":26,"current":15}
+{"_e":"metro:bundling:progress","_t":1788333134309,"id":"1","progress":0.390625,"total":32,"current":20}
+{"_e":"metro:bundling:progress","_t":1788333134412,"id":"1","progress":0.390625,"total":50,"current":24}
+{"_e":"metro:bundling:progress","_t":1788333134499,"id":"1","progress":0.390625,"total":50,"current":25}
+{"_e":"metro:bundling:progress","_t":1788333134611,"id":"1","progress":0.390625,"total":52,"current":31}
+{"_e":"metro:bundling:progress","_t":1788333134721,"id":"1","progress":0.3978698224852071,"total":65,"current":41}
+{"_e":"metro:bundling:progress","_t":1788333134821,"id":"1","progress":0.3978698224852071,"total":162,"current":50}
+{"_e":"metro:bundling:progress","_t":1788333134925,"id":"1","progress":0.3978698224852071,"total":213,"current":60}
+{"_e":"metro:bundling:progress","_t":1788333135025,"id":"1","progress":0.3978698224852071,"total":229,"current":73}
+{"_e":"metro:bundling:progress","_t":1788333135128,"id":"1","progress":0.3978698224852071,"total":254,"current":86}
+{"_e":"metro:bundling:progress","_t":1788333135229,"id":"1","progress":0.3978698224852071,"total":265,"current":93}
+{"_e":"metro:bundling:progress","_t":1788333135329,"id":"1","progress":0.3978698224852071,"total":276,"current":106}
+{"_e":"metro:bundling:progress","_t":1788333135430,"id":"1","progress":0.3978698224852071,"total":319,"current":138}
+{"_e":"metro:bundling:progress","_t":1788333135530,"id":"1","progress":0.3978698224852071,"total":342,"current":173}
+{"_e":"metro:bundling:progress","_t":1788333135631,"id":"1","progress":0.3978698224852071,"total":359,"current":207}
+{"_e":"metro:bundling:progress","_t":1788333135732,"id":"1","progress":0.3978698224852071,"total":377,"current":235}
+{"_e":"metro:bundling:progress","_t":1788333135832,"id":"1","progress":0.4444444444444444,"total":405,"current":270}
+{"_e":"metro:bundling:progress","_t":1788333135934,"id":"1","progress":0.4775331523673905,"total":424,"current":293}
+{"_e":"metro:bundling:progress","_t":1788333136035,"id":"1","progress":0.4775331523673905,"total":464,"current":315}
+{"_e":"metro:bundling:progress","_t":1788333136142,"id":"1","progress":0.4775331523673905,"total":505,"current":339}
+{"_e":"metro:bundling:progress","_t":1788333136243,"id":"1","progress":0.4940861532660948,"total":515,"current":362}
+{"_e":"metro:bundling:progress","_t":1788333136344,"id":"1","progress":0.5027602362628592,"total":519,"current":368}
+{"_e":"metro:bundling:progress","_t":1788333136447,"id":"1","progress":0.5234303259871442,"total":528,"current":382}
+{"_e":"metro:bundling:progress","_t":1788333136564,"id":"1","progress":0.540497256515775,"total":540,"current":397}
+{"_e":"metro:bundling:progress","_t":1788333136665,"id":"1","progress":0.5908540449434475,"total":549,"current":422}
+{"_e":"metro:bundling:progress","_t":1788333136766,"id":"1","progress":0.616140594288357,"total":558,"current":438}
+{"_e":"metro:bundling:progress","_t":1788333136866,"id":"1","progress":0.6720523417697812,"total":566,"current":464}
+{"_e":"metro:bundling:progress","_t":1788333136967,"id":"1","progress":0.6720523417697812,"total":597,"current":488}
+{"_e":"metro:bundling:progress","_t":1788333137071,"id":"1","progress":0.6948976631920143,"total":613,"current":511}
+{"_e":"metro:bundling:progress","_t":1788333137206,"id":"1","progress":0.7227768994896498,"total":614,"current":522}
+{"_e":"metro:bundling:progress","_t":1788333137327,"id":"1","progress":0.7227768994896498,"total":2412,"current":529}
+{"_e":"metro:bundling:progress","_t":1788333137431,"id":"1","progress":0.7227768994896498,"total":2424,"current":551}
+{"_e":"metro:bundling:progress","_t":1788333137556,"id":"1","progress":0.7227768994896498,"total":2430,"current":558}
+{"_e":"metro:bundling:progress","_t":1788333137656,"id":"1","progress":0.7227768994896498,"total":2440,"current":570}
+{"_e":"metro:bundling:progress","_t":1788333137758,"id":"1","progress":0.7227768994896498,"total":2456,"current":590}
+{"_e":"metro:bundling:progress","_t":1788333137864,"id":"1","progress":0.7227768994896498,"total":2470,"current":607}
+{"_e":"metro:bundling:progress","_t":1788333137970,"id":"1","progress":0.7227768994896498,"total":2470,"current":634}
+{"_e":"metro:bundling:progress","_t":1788333138071,"id":"1","progress":0.7227768994896498,"total":2470,"current":664}
+{"_e":"metro:bundling:progress","_t":1788333138172,"id":"1","progress":0.7227768994896498,"total":2470,"current":711}
+{"_e":"metro:bundling:progress","_t":1788333138272,"id":"1","progress":0.7227768994896498,"total":2470,"current":741}
+{"_e":"metro:bundling:progress","_t":1788333138373,"id":"1","progress":0.7227768994896498,"total":2470,"current":784}
+{"_e":"metro:bundling:progress","_t":1788333138475,"id":"1","progress":0.7227768994896498,"total":2470,"current":844}
+{"_e":"metro:bundling:progress","_t":1788333138574,"id":"1","progress":0.7227768994896498,"total":2470,"current":897}
+{"_e":"metro:bundling:progress","_t":1788333138675,"id":"1","progress":0.7227768994896498,"total":2470,"current":953}
+{"_e":"metro:bundling:progress","_t":1788333138775,"id":"1","progress":0.7227768994896498,"total":2470,"current":1005}
+{"_e":"metro:bundling:progress","_t":1788333138875,"id":"1","progress":0.7227768994896498,"total":2470,"current":1066}
+{"_e":"metro:bundling:progress","_t":1788333138975,"id":"1","progress":0.7227768994896498,"total":2470,"current":1120}
+{"_e":"metro:bundling:progress","_t":1788333139095,"id":"1","progress":0.7227768994896498,"total":2470,"current":1163}
+{"_e":"metro:bundling:progress","_t":1788333139227,"id":"1","progress":0.7227768994896498,"total":2472,"current":1220}
+{"_e":"metro:bundling:progress","_t":1788333139331,"id":"1","progress":0.7227768994896498,"total":2472,"current":1298}
+{"_e":"metro:bundling:progress","_t":1788333139433,"id":"1","progress":0.7227768994896498,"total":2472,"current":1367}
+{"_e":"metro:bundling:progress","_t":1788333139533,"id":"1","progress":0.7227768994896498,"total":2472,"current":1425}
+{"_e":"metro:bundling:progress","_t":1788333139636,"id":"1","progress":0.7227768994896498,"total":2472,"current":1476}
+{"_e":"metro:bundling:progress","_t":1788333139738,"id":"1","progress":0.7227768994896498,"total":2472,"current":1530}
+{"_e":"metro:bundling:progress","_t":1788333139838,"id":"1","progress":0.7227768994896498,"total":2473,"current":1565}
+{"_e":"metro:bundling:progress","_t":1788333139939,"id":"1","progress":0.7227768994896498,"total":2473,"current":1636}
+{"_e":"metro:bundling:progress","_t":1788333140039,"id":"1","progress":0.7227768994896498,"total":2473,"current":1711}
+{"_e":"metro:bundling:progress","_t":1788333140142,"id":"1","progress":0.7227768994896498,"total":2473,"current":1783}
+{"_e":"metro:bundling:progress","_t":1788333140242,"id":"1","progress":0.7227768994896498,"total":2473,"current":1862}
+{"_e":"metro:bundling:progress","_t":1788333140342,"id":"1","progress":0.7227768994896498,"total":2473,"current":1914}
+{"_e":"metro:bundling:progress","_t":1788333140442,"id":"1","progress":0.7227768994896498,"total":2473,"current":2006}
+{"_e":"metro:bundling:progress","_t":1788333140542,"id":"1","progress":0.7227768994896498,"total":2473,"current":2096}
+{"_e":"metro:bundling:progress","_t":1788333140642,"id":"1","progress":0.7671294787587875,"total":2473,"current":2166}
+{"_e":"metro:bundling:progress","_t":1788333140742,"id":"1","progress":0.8102183729854608,"total":2473,"current":2226}
+{"_e":"metro:bundling:progress","_t":1788333140842,"id":"1","progress":0.8507507445146769,"total":2473,"current":2281}
+{"_e":"metro:bundling:progress","_t":1788333140942,"id":"1","progress":0.8876946640375989,"total":2473,"current":2330}
+{"_e":"metro:bundling:progress","_t":1788333141044,"id":"1","progress":0.9363477354866445,"total":2473,"current":2393}
+{"_e":"metro:bundling:progress","_t":1788333141144,"id":"1","progress":0.9484112721899757,"total":2487,"current":2422}
+{"_e":"metro:bundling:progress","_t":1788333141247,"id":"1","progress":0.9635096387758727,"total":2498,"current":2452}
+{"_e":"metro:bundling:progress","_t":1788333141351,"id":"1","progress":0.9683188513193175,"total":2505,"current":2465}
+{"_e":"metro:bundling:progress","_t":1788333141450,"id":"1","progress":0.9763135133157232,"total":2518,"current":2488}
+{"_e":"metro:bundling:progress","_t":1788333141551,"id":"1","progress":0.9842893251997732,"total":2536,"current":2516}
+{"_e":"metro:bundling:progress","_t":1788333141651,"id":"1","progress":0.9842893251997732,"total":2619,"current":2537}
+{"_e":"metro:bundling:progress","_t":1788333141751,"id":"1","progress":0.9842893251997732,"total":2620,"current":2568}
+{"_e":"metro:bundling:progress","_t":1788333141853,"id":"1","progress":0.9878880753928103,"total":2634,"current":2618}
+{"_e":"metro:bundling:progress","_t":1788333141960,"id":"1","progress":0.999,"total":2642,"current":2641}
+{"_e":"metro:bundling:progress","_t":1788333142065,"id":"1","progress":0.999,"total":2642,"current":2642}
+{"_e":"metro:bundling:done","_t":1788333142198,"id":"1","total":2642,"ms":8941.4567}
+{"_e":"metro:bundling:failed","_t":1788333802725,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\screen\\MainMenuScreen.tsx: Unexpected token, expected \",\" (76:15)\n\n  74 |   buttonImage: {\n  75 |     width: 200,\n> 76 |     height: 20 0,\n     |                ^\n  77 |     resizeMode: 'contain',\n  78 |   }\n  79 | });","importStack":null,"filename":"src\\screen\\MainMenuScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788333888327,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\screen\\MainMenuScreen.tsx: Unexpected token, expected \",\" (64:5)\n\n  62 |     width: '100%',\n  63 |     alignItems: 'center',\n> 64 | ntar baris\n     |      ^\n  65 |   },\n  66 |   row: {\n  67 |     flexDirection: 'row',","importStack":null,"filename":"src\\screen\\MainMenuScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788333903808,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\screen\\MainMenuScreen.tsx: Unexpected token (64:11)\n\n  62 |     width: '100%',\n  63 |     alignItems: 'center',\n> 64 |     gap: 1-, // Jarak antar baris\n     |            ^\n  65 |   },\n  66 |   row: {\n  67 |     flexDirection: 'row',","importStack":null,"filename":"src\\screen\\MainMenuScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788334022192,"id":null,"message":"SyntaxError: D:\\camerasimulator\\src\\screen\\MainMenuScreen.tsx: Unexpected token (75:11)\n\n  73 |   },\n  74 |   buttonImage: {\n> 75 |     width: ,\n     |            ^\n  76 |     height: 60,\n  77 |     resizeMode: 'contain',\n  78 |   }","importStack":null,"filename":"src\\screen\\MainMenuScreen.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1788337363993,"level":"error","data":["[ReferenceError: Property 'BackgroundMusic' doesn't exist]"]}
+{"_e":"metro:bundling:failed","_t":1788337374956,"id":null,"message":"SyntaxError: D:\\camerasimulator\\App.tsx: Identifier 'HomeButton' has already been declared. (36:9)\n\n  34 | import { HomeButton } from './src/components-button/HomeButton';\n  35 | import { MenuButton } from './src/components-button/MenuButton';\n> 36 | import { HomeButton } from './src/components-button/HomeButton';\n     |          ^\n  37 | import { MenuButton } from './src/components-button/MenuButton';\n  38 |\n  39 | function AppContent() {","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:bundling:failed","_t":1788337375360,"id":null,"message":"SyntaxError: D:\\camerasimulator\\App.tsx: Identifier 'HomeButton' has already been declared. (36:9)\n\n  34 | import { HomeButton } from './src/components-button/HomeButton';\n  35 | import { MenuButton } from './src/components-button/MenuButton';\n> 36 | import { HomeButton } from './src/components-button/HomeButton';\n     |          ^\n  37 | import { MenuButton } from './src/components-button/MenuButton';\n  38 |\n  39 | function AppContent() {","importStack":null,"filename":"App.tsx","targetModuleName":null,"originModulePath":null}
+{"_e":"metro:client_log","_t":1788337389613,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNCWebView]"]}
+{"_e":"metro:client_log","_t":1788337390795,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGCircle]"]}
+{"_e":"metro:client_log","_t":1788337390821,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGClipPath]"]}
+{"_e":"metro:client_log","_t":1788337390842,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGDefs]"]}
+{"_e":"metro:client_log","_t":1788337390861,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGEllipse]"]}
+{"_e":"metro:client_log","_t":1788337390943,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGGroup]"]}
+{"_e":"metro:client_log","_t":1788337390956,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGForeignObject]"]}
+{"_e":"metro:client_log","_t":1788337391029,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGImage]"]}
+{"_e":"metro:client_log","_t":1788337391066,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGLine]"]}
+{"_e":"metro:client_log","_t":1788337391119,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGLinearGradient]"]}
+{"_e":"metro:client_log","_t":1788337391159,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGMarker]"]}
+{"_e":"metro:client_log","_t":1788337391184,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGMask]"]}
+{"_e":"metro:client_log","_t":1788337391227,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGPath]"]}
+{"_e":"metro:client_log","_t":1788337391255,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGPattern]"]}
+{"_e":"metro:client_log","_t":1788337391303,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGRadialGradient]"]}
+{"_e":"metro:client_log","_t":1788337391325,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGRect]"]}
+{"_e":"metro:client_log","_t":1788337391362,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGSvgViewAndroid]"]}
+{"_e":"metro:client_log","_t":1788337391376,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGSvgView]"]}
+{"_e":"metro:client_log","_t":1788337391404,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGSymbol]"]}
+{"_e":"metro:client_log","_t":1788337391427,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGTSpan]"]}
+{"_e":"metro:client_log","_t":1788337391458,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGText]"]}
+{"_e":"metro:client_log","_t":1788337391483,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGTextPath]"]}
+{"_e":"metro:client_log","_t":1788337391503,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGUse]"]}
+{"_e":"metro:client_log","_t":1788337391531,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFeBlend]"]}
+{"_e":"metro:client_log","_t":1788337391562,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFeColorMatrix]"]}
+{"_e":"metro:client_log","_t":1788337391611,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFeComposite]"]}
+{"_e":"metro:client_log","_t":1788337391677,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFeFlood]"]}
+{"_e":"metro:client_log","_t":1788337391700,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFeGaussianBlur]"]}
+{"_e":"metro:client_log","_t":1788337391726,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFeMerge]"]}
+{"_e":"metro:client_log","_t":1788337391764,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFeOffset]"]}
+{"_e":"metro:client_log","_t":1788337391859,"level":"error","data":["[Invariant Violation: Tried to register two views with the same name RNSVGFilter]"]}
+{"_e":"metro:server_log","_t":1788337464864,"level":"error","data":["[timeout] connection terminated with Device for app='%s' on device='%s' after not responding for %s seconds.","host.exp.exponent","sdk_gphone64_x86_64 - 13 - API 33","60"]}
+{"_e":"root:init","_t":1788337727087,"format":"v0-jsonl","version":"56.1.25"}
+{"_e":"env:mode","_t":1788337727088,"nodeEnv":"development","babelEnv":"development","mode":"development"}
+{"_e":"env:load","_t":1788337727092,"mode":"development","files":[],"env":{}}
+{"_e":"devserver:start","_t":1788337727380,"mode":"development","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":false}
+{"_e":"metro:config","_t":1788337727800,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":false,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1788337739134,"atlas":false,"workers":8,"host":"::","port":8081}
