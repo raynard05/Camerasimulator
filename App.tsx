@@ -31,6 +31,8 @@ import { PetunjukScreen } from './src/screen/PetunjukScreen';
 import { TujuanScreen } from './src/screen/TujuanScreen';
 import { MateriScreen } from './src/screen/MateriScreen';
 import { RuleOfThirdsScreen } from './src/screen/RuleOfThirdsScreen';
+import { ProfilScreen } from './src/screen/ProfilScreen';
+import { SimulatorIntroScreen } from './src/screen/SimulatorIntroScreen';
 import { BackgroundMusic } from './src/components-button/BackgroundMusic';
 import { HomeButton } from './src/components-button/HomeButton';
 import { MenuButton } from './src/components-button/MenuButton';
@@ -54,7 +56,11 @@ function AppContent() {
       case 'RuleOfThirds':
         return <RuleOfThirdsScreen onClose={() => setCurrentScreen('Materi')} />;
       case 'Simulator':
+        return <SimulatorIntroScreen onStart={() => setCurrentScreen('CameraSimulatorView')} />;
+      case 'CameraSimulatorView':
         return <CameraSimulator />;
+      case 'Profil':
+        return <ProfilScreen />;
       default:
         // Render empty or construction page for unimplemented screens
         return <View style={{flex: 1, backgroundColor: '#050720'}} />;

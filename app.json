@@ -4,6 +4,9 @@
     "slug": "camerasimulator",
     "version": "1.0.0",
     "orientation": "landscape",
-    "userInterfaceStyle": "light"
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.anonymous.camerasimulator"
+    }
   }
 }

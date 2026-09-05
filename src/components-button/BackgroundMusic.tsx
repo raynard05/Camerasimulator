@@ -1,81 +1,31 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { TouchableOpacity, Image, StyleSheet, View, Text } from 'react-native';
-import { WebView } from 'react-native-webview';
-import * as FileSystem from 'expo-file-system/legacy';
-import { Asset } from 'expo-asset';
+import React, { useState, useEffect } from 'react';
+import { TouchableOpacity, Image, StyleSheet, View } from 'react-native';
+import { useAudioPlayer } from 'expo-audio';
 
 export const BackgroundMusic = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [base64Audio, setBase64Audio] = useState<string | null>(null);
-  const webviewRef = useRef<WebView>(null);
+  const player = useAudioPlayer(require('../../assets/images/musik_fx/backsound_game.mp3'));
+  const [isPlaying, setIsPlaying] = useState(true);
 
   useEffect(() => {
-    async function loadAudio() {
-      try {
-        const asset = Asset.fromModule(require('../../assets/images/MUSIK & FX/backsound game gaming.mp3'));
-        await asset.downloadAsync();
-        
-        if (asset.localUri) {
-          const base64 = await FileSystem.readAsStringAsync(asset.localUri, {
-              encoding: FileSystem.EncodingType.Base64,
-          });
-          setBase64Audio(`data:audio/mp3;base64,${base64}`);
-          setIsPlaying(true); // default play
-        }
-      } catch (error) {
-        console.log("Error loading audio:", error);
-      }
+    if (player) {
+      player.loop = true;
+      player.play();
     }
-    loadAudio();
-  }, []);
-
-  useEffect(() => {
-    if (base64Audio && webviewRef.current) {
-      if (isPlaying) {
-        webviewRef.current.injectJavaScript(`
-          if (window.audio) { window.audio.play(); }
-          true;
-        `);
-      } else {
-        webviewRef.current.injectJavaScript(`
-          if (window.audio) { window.audio.pause(); }
-          true;
-        `);
-      }
-    }
-  }, [isPlaying, base64Audio]);
+  }, [player]);
 
   const toggleSound = () => {
-    setIsPlaying(!isPlaying);
+    if (!player) return;
+    if (isPlaying) {
+      player.pause();
+      setIsPlaying(false);
+    } else {
+      player.play();
+      setIsPlaying(true);
+    }
   };
-
-  const htmlContent = `
-    <!DOCTYPE html>
-    <html>
-      <head></head>
-      <body>
-        <script>
-          window.audio = new Audio('${base64Audio || ''}');
-          window.audio.loop = true;
-          ${isPlaying ? 'window.audio.play();' : ''}
-        </script>
-      </body>
-    </html>
-  `;
 
   return (
     <View style={styles.container} pointerEvents="box-none">
-      {base64Audio && (
-        <View style={{ width: 0, height: 0, opacity: 0 }}>
-          <WebView
-            ref={webviewRef}
-            source={{ html: htmlContent }}
-            originWhitelist={['*']}
-            javaScriptEnabled={true}
-            mediaPlaybackRequiresUserAction={false}
-          />
-        </View>
-      )}
       <TouchableOpacity onPress={toggleSound} style={styles.button}>
         <Image 
           source={isPlaying 

@@ -1,0 +1,36 @@
+===================================================
+PROSEDUR MENJALANKAN APLIKASI DAN BUILD APK
+===================================================
+
+A. PROSEDUR BUILD APK RELEASE (build-apk.sh)
+---------------------------------------------------
+Script `build-apk.sh` digunakan untuk membuat file APK Release secara otomatis (membersihkan cache, melakukan kompilasi, dan menyalin hasilnya ke direktori root).
+
+1. Buka terminal yang mendukung eksekusi Bash script (seperti Git Bash, WSL, atau terminal Linux/macOS).
+2. Pastikan Anda berada di direktori root proyek (d:\camerasimulator).
+3. Berikan izin eksekusi pada script (hanya berlaku di Linux/macOS/WSL):
+   chmod +x build-apk.sh
+4. Jalankan script dengan perintah berikut:
+   ./build-apk.sh
+5. Tunggu proses kompilasi hingga selesai. Jika berhasil, file APK akan tersedia di direktori utama dengan nama `CameraSimulator-Release.apk`.
+
+Catatan: Karena Anda menggunakan OS Windows, sangat disarankan menggunakan Git Bash untuk menjalankan file .sh. (Tersedia juga `build-apk.bat` sebagai alternatif jika Anda ingin menggunakan Command Prompt atau PowerShell).
+
+
+B. PROSEDUR MENJALANKAN APLIKASI DI EXPO GO
+---------------------------------------------------
+Aplikasi ini menggunakan framework Expo. Untuk menjalankan mode development di aplikasi Expo Go:
+
+1. Buka terminal Anda (Command Prompt, PowerShell, Git Bash, atau terminal bawaan IDE).
+2. Pastikan Anda berada di dalam direktori root proyek (d:\camerasimulator).
+3. Jika baru pertama kali membuka proyek ini, install semua dependencies (library) dengan perintah:
+   npm install
+4. Setelah proses instalasi selesai, jalankan development server dengan perintah:
+   npx expo start
+   (atau Anda juga bisa menggunakan perintah `npm start`)
+5. Sebuah QR Code akan muncul di terminal.
+6. Di HP Anda, pastikan sudah menginstal aplikasi "Expo Go" dari Play Store (Android) atau App Store (iOS).
+7. Buka aplikasi Expo Go, kemudian:
+   - Untuk Android: Gunakan fitur "Scan QR Code" di dalam aplikasi Expo Go dan arahkan kamera ke QR Code di layar komputer Anda.
+   - Untuk iOS: Buka aplikasi Kamera bawaan iPhone, arahkan ke QR Code di layar, lalu klik notifikasi pop-up untuk membukanya di Expo Go.
+8. Aplikasi akan dimuat (bundling) dan dapat segera diuji langsung pada perangkat seluler Anda.
